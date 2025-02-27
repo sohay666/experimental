@@ -1,0 +1,21 @@
+.codebuddy/
+
+# gradle
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# editors
+.idea
+.vscode/
+
+# ignore temp directory (e.g. for export csv files)
+temp/
+
+# macOS
+out/
+**/.DS_Store
+
+**/node_modules/**
