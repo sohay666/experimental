@@ -1,0 +1,43 @@
+# Experimental Caching With Redis
+
+
+## 1. Clean and Build the project.
+./gradlew clean build
+
+## 2. Run app 
+./gradlew bootRun
+
+
+```
+set to java 11:
+/usr/libexec/java_home -V
+export JAVA_HOME=$(/usr/libexec/java_home -v 11)
+java -version
+```
+
+## Testing the Endpoints
+
+1. Save a User
+
+```
+curl -X POST "http://localhost:8081/users" -H "Content-Type: application/json" -d '{"id":"1","name":"Alice","gender":"female","age":18}'
+curl -X POST "http://localhost:8081/users" -H "Content-Type: application/json" -d '{"id":"2","name":"Bob","gender":"male","age":18}'
+```
+
+2. Get User by ID
+
+```
+curl -X GET "http://localhost:8081/users/1"
+```
+
+3.Get All Users
+
+```
+curl -X GET "http://localhost:8081/users"
+```
+
+4.Delete a User
+
+```
+curl -X DELETE "http://localhost:8081/users/1"
+```
