@@ -1,0 +1,10 @@
+id,name,generation,types,species,height,weight,abilities,image
+#0001,Bulbasaur,1,"[""Grass"", ""Poison""]",Seed Pokémon,0.7 m (2′04″),6.9 kg (15.2 lbs),"[""Overgrow"", ""Chlorophyll""]",https://img.pokemondb.net/sprites/home/normal/2x/bulbasaur.jpg
+#0002,Ivysaur,1,"[""Grass"", ""Poison""]",Seed Pokémon,1.0 m (3′03″),13.0 kg (28.7 lbs),"[""Overgrow"", ""Chlorophyll""]",https://img.pokemondb.net/sprites/home/normal/2x/ivysaur.jpg
+#0003,Venusaur,1,"[""Grass"", ""Poison"", ""Grass"", ""Poison""]",Seed Pokémon,2.0 m (6′07″),100.0 kg (220.5 lbs),"[""Overgrow"", ""Chlorophyll"", ""Thick Fat""]",https://img.pokemondb.net/sprites/home/normal/2x/venusaur.jpg
+#0004,Charmander,1,"[""Fire""]",Lizard Pokémon,0.6 m (2′00″),8.5 kg (18.7 lbs),"[""Blaze"", ""Solar Power""]",https://img.pokemondb.net/sprites/home/normal/2x/charmander.jpg
+#0005,Charmeleon,1,"[""Fire""]",Flame Pokémon,1.1 m (3′07″),19.0 kg (41.9 lbs),"[""Blaze"", ""Solar Power""]",https://img.pokemondb.net/sprites/home/normal/2x/charmeleon.jpg
+#0006,Charizard,1,"[""Fire"", ""Flying"", ""Fire"", ""Dragon"", ""Fire"", ""Flying""]",Flame Pokémon,1.7 m (5′07″),90.5 kg (199.5 lbs),"[""Blaze"", ""Solar Power"", ""Tough Claws"", ""Drought""]",https://img.pokemondb.net/sprites/home/normal/2x/charizard.jpg
+#0007,Squirtle,1,"[""Water""]",Tiny Turtle Pokémon,0.5 m (1′08″),9.0 kg (19.8 lbs),"[""Torrent"", ""Rain Dish""]",https://img.pokemondb.net/sprites/home/normal/2x/squirtle.jpg
+#0008,Wartortle,1,"[""Water""]",Turtle Pokémon,1.0 m (3′03″),22.5 kg (49.6 lbs),"[""Torrent"", ""Rain Dish""]",https://img.pokemondb.net/sprites/home/normal/2x/wartortle.jpg
+#0009,Blastoise,1,"[""Water"", ""Water""]",Shellfish Pokémon,1.6 m (5′03″),85.5 kg (188.5 lbs),"[""Torrent"", ""Rain Dish"", ""Mega Launcher""]",https://img.pokemondb.net/sprites/home/normal/2x/blastoise.jpg
