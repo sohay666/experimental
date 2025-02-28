@@ -1,0 +1,27 @@
+{
+    "app" :{
+        "name": "TokTok Prototype",
+        "version": "1.0",
+        "port": "8000",
+        "prefix": "/api/v1.0",
+        "expiredVideo" : 7
+    },
+    "security" : {
+        "enabledCors": true,
+        "whitelistHost" : "http://localhost:5173"
+    },
+    "service": {
+        "redis": {
+            "host": "127.0.0.1",
+            "port": 6379,
+            "password": ""
+        }
+    },
+    "integration" : {
+        "pexels" : {
+            "host" : "https://api.pexels.com",
+            "secretKey" : "IzpoLMLpTAJikPNxk5Str6a99Idg3yTuHjv6XF7HwvUpgPMFN0bBhpMV",
+            "size": 5
+        }
+    }
+}
